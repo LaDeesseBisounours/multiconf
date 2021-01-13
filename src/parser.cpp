@@ -34,5 +34,3 @@ string is_token_line(const string &line, const unsigned line_number, int& error)
 
     return line.substr(first_token, last_token - first_token);
 }
-
-
